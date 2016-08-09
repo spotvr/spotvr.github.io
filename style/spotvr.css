@@ -1,0 +1,1145 @@
+/* **************************************************************************
+
+// CSS for KKLabs' SPOT VR Project
+// Author: SybiL
+
+// Style for main css (start design from 1366*680)
+
+************************************************************************** */
+
+/* ************************************************************************** */
+/*
+                                   Global
+*/
+/* ************************************************************************** */
+html,
+* {
+  outline: none;
+  font-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  appearance: normal;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif", "Microsoft JhengHei";
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  text-rendering: optimizeLegibility;
+  min-width: 320px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  background-color: #84cbc5;
+  background-image: url(../images/spotvrBg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 325%;
+  background-attachment: fixed;
+
+  overflow-x: hidden;
+}
+
+/* ************************************************************************** */
+/*
+                                   Color Swatch 
+*/
+/* ************************************************************************** */
+/* for all area & components */
+
+
+/* ************************************************************************** */
+/*
+                                   Default Layer
+*/
+/* ************************************************************************** */
+
+/* layer default */
+.primeNumLayerA {
+  z-index: 2;
+}
+
+.primeNumLayerAa {
+  z-index: 3;
+}
+
+.primeNumLayerAaa {
+  z-index: 5;
+}
+
+.primeNumLayerAaaa {
+  z-index: 7;
+}
+
+.primeNumLayerB {
+  z-index: 11;
+}
+
+.primeNumLayerBb {
+  z-index: 13;
+}
+
+.primeNumLayerBbb {
+  z-index: 17;
+}
+
+.primeNumLayerBbbb {
+  z-index: 19;
+}
+
+.primeNumLayerC {
+  z-index: 31;
+}
+
+.primeNumLayerCc {
+  z-index: 37;
+}
+
+.primeNumLayerD {
+  z-index: 41;
+}
+
+.primeNumLayerDd {
+  z-index: 43;
+}
+
+.primeNumLayerDdd {
+  z-index: 47;
+}
+
+.primeNumLayerE {
+  z-index: 53;
+}
+
+.primeNumLayerEe {
+  z-index: 59;
+}
+
+.primeNumLayerL {
+  z-index: 101;
+}
+
+.primeNumLayerX {
+  z-index: -37;
+}
+
+.primeNumLayerXx {
+  z-index: -31;
+}
+
+.primeNumLayerY {
+  z-index: -11;
+}
+
+.primeNumLayerZ {
+  z-index: -2;
+}
+
+
+/* ************************************************************************** */
+/*
+                                   Layout
+*/
+/* ************************************************************************** */
+
+.uiSection {
+  width: 100%;
+// border: solid 1px red;
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+#section01 {
+
+  height: 640px;
+  background-size: 100% 640px;
+}
+
+#section02 {
+
+  height: 200px;
+  background-size: 100% 200px;
+
+  background-color: #184656;
+}
+
+#section03 {
+
+  height: 620px;
+  background-size: 100% 620px;
+}
+
+#section04 {
+
+  height: 680px;
+  background-size: 100% 680px;
+}
+
+
+#section05 {
+
+  height: 200px;
+  background-size: 100% 200px;
+
+}
+
+#section06 {
+
+  height: 520px;
+  background-size: 100% 520px;
+}
+
+#section07 {
+
+  height: 590px;
+  background-size: 100% 590px;
+}
+
+#footer {
+  
+  heitht: 20px;
+  background-size: 100% 20px;
+
+  background-color: #184656;
+}
+
+
+.contentArea {
+  width: 96%;
+  height: 92%;
+  background-size: 96% 92%;
+  // border: solid 1px blue;
+
+  position: relative;
+  margin: 0 auto;
+  top: 3%;
+}
+
+/* ****************/
+/* section 01 
+/* ****************/
+.spotvrLogo {
+  width: 360px;
+  height: 114px;
+  background-size: contain;
+  background-image: url(../images/spotvrLogoBig.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 280px;
+}
+
+
+.decoCorner {
+  width: 70px;
+  height: 70px;
+  background-size: 70px 70px;
+  // border: solid 1px white
+}
+
+.decoCornerLeftTop {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.decoCornerRightTop {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.decoCornerLeftBottom {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.decoCornerRightBottom {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.decoLineHorizontal {
+  width: 70px;
+  height: 5px;
+  background-size: 70px 5px;
+  background-color: white;
+}
+
+.decoLineVerital {
+  width: 5px;
+  height: 70px;
+  background-size: 5px 70px;
+  background-color: white;
+}
+
+.decoLineTop {
+  position: absolute;
+  top: 0px;
+}
+
+.decoLineBottom {
+  position: absolute;
+  bottom: 0px;
+}
+
+.decoLineLeft {
+  position: absolute;
+  left: 0px;
+}
+
+.decoLineRight {
+  position: absolute;
+  right: 0px;
+}
+
+.titleBar {
+  width: 100%;
+  height: 60px;
+  background-size: 100% 60px;
+
+  background-color: #184656;
+
+  position: absolute;
+  top: 0px;
+
+  opacity: 0.7;
+}
+
+/* ****************/
+/* section 02 
+/* ****************/
+.mottoArea {
+  width: 90%;
+  height: 90%;
+  background-size: 90% 90%;
+// border: solid 1px white;
+  
+  position: relative;
+  margin: 0 auto;
+  top: 7%;
+}
+
+.mottoText {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  letter-spacing: 4px;
+  padding-left: 4px;
+
+  padding: 10px;
+  padding-top: 10px;
+
+}
+
+/* ****************/
+/* section 03
+/* ****************/
+.section03BgFill {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-color: black;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  opacity: 0.7;
+}
+
+#section03Bg {
+  width: 100%;
+  height: 770px;
+  background-size: contain;
+  background-image: url(../images/vrPhoto.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+
+  // opacity: 0.2;
+
+}
+
+.descriptionArea {
+  width: 360px;
+  height: 160px;
+  background-size: 360px 160px;
+
+  background-color: white;
+
+  position: relative;
+  margin: 0 auto;
+  top: -520px;
+  left: 200px;
+
+  opacity: 0.7;
+
+}
+
+.descriptionText {
+  width: 100%;
+  font-size: 16px;
+  color: #2f2f2f;
+  
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.prefix {
+  font-size: 30px;
+  text-align: left;
+
+  position: absolute;
+  top: 10px;
+  left: 13px;
+
+}
+
+.firstLine {
+  position: absolute;
+  top: 25px;
+  right: 13px;
+
+}
+
+.secondLine {
+  width: 92%;
+
+  position: relative;
+  margin: 0 auto;
+  top: 48px;
+}
+
+/* ****************/
+/* section 04
+/* ****************/
+#section04Bg {
+  width: 1366px;
+  height: 2006px;
+  background-size: contain;
+  background-image: url(../images/04Bg.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  margin-top: 120px;
+}
+
+.forceMapArea {
+  width: 96%;
+  height: 92%;
+  background-size: 96% 92%;
+  // border: solid 1px blue;
+
+  position: absolute;
+  top: 4%;
+  left: 2%;
+
+}
+
+
+.grassBallCenter {
+  width: 160px;
+  height: 152px;
+  background-size: contain;
+  background-image: url(../images/grassBallBig.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 200px;
+}
+
+
+.forceLine01 {
+  width: 126px;
+  height: 1px;
+  background-size: 126px 1px;
+  background-color: white;
+
+  position: relative;
+  margin: 0 auto;
+  top: -10px;
+  left: -90px;
+
+  opacity: 0.7;
+  
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.forceLine02 {
+  width: 220px;
+  height: 1px;
+  background-size: 220px 1px;
+  background-color: white;
+
+  position: relative;
+  margin: 0 auto;
+  top: 100px;
+  left: -210px;
+
+  opacity: 0.7;
+  
+  -webkit-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+
+
+.forceLine03 {
+  width: 130px;
+  height: 1px;
+  background-size: 130px 1px;
+  background-color: white;
+
+  position: relative;
+  margin: 0 auto;
+  top: 160px;
+  left: -70px;
+
+  opacity: 0.7;
+  
+  -webkit-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+
+.forceLine04 {
+  width: 180px;
+  height: 1px;
+  background-size: 180px 1px;
+  background-color: white;
+
+  position: relative;
+  margin: 0 auto;
+  top: -35px;
+  right: -90px;
+
+  opacity: 0.7;
+  
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.forceLine05 {
+  width: 160px;
+  height: 1px;
+  background-size: 160px 1px;
+  background-color: white;
+
+  position: relative;
+  margin: 0 auto;
+  top: 70px;
+  right: -120px;
+
+  opacity: 0.7;
+  
+  -webkit-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+
+.forceLine06 {
+  width: 155px;
+  height: 1px;
+  background-size: 155px 1px;
+  background-color: white;
+
+  position: relative;
+  margin: 0 auto;
+  top: 195px;
+  right: -65px;
+
+  opacity: 0.7;
+  
+  -webkit-transform: rotate(65deg);
+  transform: rotate(65deg);
+}
+
+.grassBallMini01 {
+  width: 56px;
+  height: 49px;
+  background-size: contain;
+  background-image: url(../images/grassBallMini01.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: -30px;
+  right: 160px;
+}
+
+
+.grassBallMini02 {
+  width: 50px;
+  height: 45px;
+  background-size: contain;
+  background-image: url(../images/grassBallMini02.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 90px;
+  right: 300px;
+}
+
+.grassBallMini03 {
+  width: 50px;
+  height: 45px;
+  background-size: contain;
+  background-image: url(../images/grassBallMini03.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 140px;
+  right: 140px;
+}
+
+.grassBallMini04 {
+  width: 56px;
+  height: 49px;
+  background-size: contain;
+  background-image: url(../images/grassBallMini04.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: -220px;
+  left: 170px;
+}
+
+.grassBallMini05 {
+  width: 56px;
+  height: 49px;
+  background-size: contain;
+  background-image: url(../images/grassBallMini05.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: -90px;
+  left: 220px;
+}
+
+.grassBallMini06 {
+  width: 56px;
+  height: 49px;
+  background-size: contain;
+  background-image: url(../images/grassBallMini06.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 80px;
+  left: 100px;
+}
+
+.ballText01 {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+
+  width: 180px;
+  height: 24px;
+  background-size: 180px 24px;
+
+  padding-top: 2px;
+  
+  position: absolute;
+  top: 13px;
+  left: -180px;
+
+}
+
+.ballText02 {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+
+  width: 120px;
+  height: 24px;
+  background-size: 120px 24px;
+
+  padding-top: 2px;
+  
+  position: absolute;
+  top: 13px;
+  left: -110px;
+
+}
+
+.ballText03 {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+
+  width: 160px;
+  height: 24px;
+  background-size: 160px 24px;
+
+  padding-top: 2px;
+  
+  position: absolute;
+  top: 13px;
+  left: -160px;
+
+}
+
+.ballText04 {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+
+  width: 140px;
+  height: 24px;
+  background-size: 140px 24px;
+
+  padding-top: 2px;
+  
+  position: absolute;
+  top: 13px;
+  right: -130px;
+
+}
+
+.ballText05 {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+
+  width: 140px;
+  height: 24px;
+  background-size: 140px 24px;
+
+  padding-top: 2px;
+  
+  position: absolute;
+  top: 13px;
+  right: -130px;
+
+}
+
+.ballText06 {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+
+  width: 140px;
+  height: 24px;
+  background-size: 140px 24px;
+
+  padding-top: 2px;
+  
+  position: absolute;
+  top: 13px;
+  right: -130px;
+
+}
+
+/* ****************/
+/* section 05
+/* ****************/
+.cardboardLinePic {
+  width: 700px;
+  height: 614px;
+  background-size: contain;
+  background-image: url(../images/cardboardLine.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: -160px;
+}
+
+#section05Bg {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+
+  background-color: #184656;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.spotvrLogoMini {
+  width: 280px;
+  height: 89px;
+  background-size: contain;
+  background-image: url(../images/spotvrLogoBig.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 46px;
+}
+
+.cardboardText {
+  width: 100%;
+  height: 30px;
+  background-size: 100% 30px;
+
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-left: 2px;
+
+  position: relative;
+  margin: 0 auto;
+  left: 100px;
+  top: 30px;
+}
+
+/* ****************/
+/* section 06
+/* ****************/
+.cardboardPhoto {
+  width: 220px;
+  height: 171px;
+  background-size: contain;
+  background-image: url(../images/cardboardPhoto.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 80px;
+}
+
+.cardboardDescriptionArea {
+  width: 360px;
+  height: 140px;
+  background-size: 360px 140px;
+
+  position: relative;
+  margin: 0 auto;
+  top: 90px;
+  margin-top: 30px;
+}
+
+.cardboardDescriptionText {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-left: 2px;
+
+  position: relative;
+  margin: 0 auto;
+
+  padding: 6px;
+  padding-top: 4px;
+
+}
+
+.classLink {
+  color: yellow;
+}
+
+/* ****************/
+/* section 07
+/* ****************/
+.showCaseArea {
+  width: 80%;
+  height: 70%;
+  background-size: 80% 70%;
+
+  position: relative;
+  margin: 0 auto;
+  top: 15%;
+}
+
+
+.literatureLogo {
+  width: 160px;
+  height: 76px;
+  background-size: contain;
+  background-image: url(../images/literatureLogo.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 110px;
+}
+
+
+.glassLogoLeft {
+  width: 80px;
+  height: 54px;
+  background-size: contain;
+  background-image: url(../images/glassLogoLeft.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 120px;
+}
+
+.glassLogoRight {
+  width: 80px;
+  height: 54px;
+  background-size: contain;
+  background-image: url(../images/glassLogoRight.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 120px;
+}
+
+.boxMiddle {
+  width: 300px;
+  height: 300px;
+  background-size: 300px 300px;
+
+  background-color: #A3BDB7;
+
+  position: relative;
+  margin: 0 auto;
+  top: -50px;
+  
+  -moz-box-shadow: 0.5px 2px 1px 1px rgba(20%, 20%, 40%, 0.5);
+  -o-box-shadow: 0.5px 2px 1px 1px rgba(20%, 20%, 40%, 0.5);
+  -webkit-box-shadow: 0.5px 2px 1px 1px rgba(20%, 20%, 40%, 0.5);
+  box-shadow: 0.5px 2px 1px 1px rgba(20%, 20%, 40%, 0.5);
+}
+
+.boxLeft {
+  width: 300px;
+  height: 300px;
+  background-size: 300px 300px;
+
+  background-color: #A3BDB7;
+
+  position: relative;
+  float: left;
+  left: 0px;
+  top: -380px;
+
+  -moz-transform-rigin: right;
+  -moz-transform: skewY(10deg);
+  -o-transform-rigin: right;
+  -o-transform: skewY(10deg);
+  -webkit-transform-rigin: right;
+  -webkit-transform: skewY(10deg);
+  transform-rigin: right;
+  transform: skewY(10deg);
+
+  -moz-box-shadow: -2px 2px 1px 1px rgba(20%, 20%, 40%, 0.4);
+  -o-box-shadow: -2px 2px 1px 1px rgba(20%, 20%, 40%, 0.4);
+  -webkit-box-shadow: -2px 2px 1px 1px rgba(20%, 20%, 40%, 0.4);
+  box-shadow: -2px 2px 1px 1px rgba(20%, 20%, 40%, 0.4);
+}
+
+.boxRight {
+  width: 300px;
+  height: 300px;
+  background-size: 300px 300px;
+
+  background-color: #A3BDB7;
+
+  position: relative;
+  float: right;
+  right: 0px;
+  top: -350px;
+
+  -moz-transform-origin: left;
+  -moz-transform: skewY(-10deg);
+  -o-transform-origin: left;
+  -o-transform: skewY(-10deg);
+  -webkit-transform-origin: left;
+  -webkit-transform: skewY(-10deg);
+  transform-origin: left;
+  transform: skewY(-10deg);
+
+  -moz-box-shadow: 2px 2px 1px 1px rgba(20%, 20%, 40%, 0.4);
+  -o-box-shadow: 2px 2px 1px 1px rgba(20%, 20%, 40%, 0.4);
+  -webkit-box-shadow: 2px 2px 1px 1px rgba(20%, 20%, 40%, 0.4);
+  box-shadow: 2px 2px 1px 1px rgba(20%, 20%, 40%, 0.4);
+}
+
+
+.middlePhoto01 {
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-image: url(../images/middlePhoto01.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.leftPhoto01 {
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-image: url(../images/leftPhoto01.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.rightPhoto01 {
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-image: url(../images/rightPhoto01.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+
+.middlePhoto02 {
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-image: url(../images/middlePhoto02.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.leftPhoto02 {
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-image: url(../images/leftPhoto02.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.rightPhoto02 {
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-image: url(../images/rightPhoto02.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+
+.middlePhoto03 {
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-image: url(../images/middlePhoto03.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.leftPhoto03 {
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-image: url(../images/leftPhoto03.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.rightPhoto03 {
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-image: url(../images/rightPhoto03.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+
+.cardboardCustom {
+  width: 180px;
+  height: 180px;
+  background-size: 180px 180px;
+  border-radius: 50%;
+
+  background-color: white;
+
+  position: relative;
+  margin: 0 auto;
+  left: 200px;
+  top: -100px;
+}
+
+.cardboardPhotoCustom {
+  width: 120px;
+  height: 106px;
+  background-size: contain;
+  background-image: url(../images/cardboardPhotoCustom.png);
+  background-repeat: no-repeat;
+
+  position: relative;
+  margin: 0 auto;
+  top: 44px;
+}
+
+
+
+/* ****************/
+/* footer
+/* ****************/
+
+.footerText {
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+
+  width: 300px;
+  height: 20px;
+  background-size: 300px 20px;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+
+  padding-top: 3px;
+}
