@@ -68,6 +68,71 @@
 	  right: -65px;
 	}
 
+	.middlePhoto01 {
+	  width: 280px;
+	  height: 280px;
+	  background-size: contain;
+	}
+
+	.middlePhoto02 {
+	  width: 280px;
+	  height: 280px;
+	  background-size: contain;
+	}
+
+	.middlePhoto03 {
+	  width: 280px;
+	  height: 280px;
+	  background-size: contain;
+	}
+
+	.leftPhoto01 {
+	  width: 280px;
+	  height: 280px;
+	  background-size: contain;
+	}
+
+	.leftPhoto02 {
+	  width: 280px;
+	  height: 280px;
+	  background-size: contain;
+	}
+
+	.leftPhoto03 {
+	  width: 280px;
+	  height: 280px;
+	  background-size: contain;
+	}
+
+	.rightPhoto01 {
+	  width: 280px;
+	  height: 280px;
+	  background-size: contain;
+	}
+
+	.rightPhoto02 {
+	  width: 280px;
+	  height: 280px;
+	  background-size: contain;
+	}
+
+	.rightPhoto03 {
+	  width: 280px;
+	  height: 280px;
+	  background-size: contain;
+	}
+
+	.literatureLogo {
+	  top: 102px;
+	}
+
+	.glassLogoLeft {
+	  top: 113px;
+	}
+
+	.glassLogoRight {
+	  top: 113px;
+	}
 }
 
 @media only screen and (min-width: 801px) and (max-width: 900px) {
@@ -84,7 +149,7 @@
 	  background-size: 250px 250px;
   	  top: -330px;
 
-	  left: -70px;	
+	  left: -60px;	
   	  
   	  margin-top: 5px;
 	}
@@ -95,25 +160,548 @@
 	  background-size: 250px 250px;
 	  top: -300px;
 
-	  right: -70px;
+	  right: -60px;
 	}
 
+
+	.middlePhoto01 {
+	  width: 250px;
+	  height: 250px;
+	  background-size: contain;
+	}
+
+	.middlePhoto02 {
+	  width: 250px;
+	  height: 250px;
+	  background-size: contain;
+	}
+
+	.middlePhoto03 {
+	  width: 250px;
+	  height: 250px;
+	  background-size: contain;
+	}
+
+	.leftPhoto01 {
+	  width: 250px;
+	  height: 250px;
+	  background-size: contain;
+	}
+
+	.leftPhoto02 {
+	  width: 250px;
+	  height: 250px;
+	  background-size: contain;
+	}
+
+	.leftPhoto03 {
+	  width: 250px;
+	  height: 250px;
+	  background-size: contain;
+	}
+
+	.rightPhoto01 {
+	  width: 250px;
+	  height: 250px;
+	  background-size: contain;
+	}
+
+	.rightPhoto02 {
+	  width: 250px;
+	  height: 250px;
+	  background-size: contain;
+	}
+
+	.rightPhoto03 {
+	  width: 250px;
+	  height: 250px;
+	  background-size: contain;
+	}
+
+	.literatureLogo {
+	  top: 87px;
+	}
+
+	.glassLogoLeft {
+	  top: 98px;
+	}
+
+	.glassLogoRight {
+	  top: 98px;
+	}
 }
 
 
 /* iPad */
 @media screen and (min-width: 768px) and (max-width: 800px){
+	
+	.boxMiddle {
+	  width: 230px;
+	  height: 230px;
+	  background-size: 230px 230px;
+	}
 
+	.boxLeft {
+	  width: 230px;
+	  height: 230px;
+	  background-size: 230px 230px;
+  	  top: -310px;
+
+	  left: -50px;	
+  	  
+  	  margin-top: 5px;
+	}
+
+	.boxRight {
+	  width: 230px;
+	  height: 230px;
+	  background-size: 230px 230px;
+	  top: -280px;
+
+	  right: -50px;
+	}
+
+
+	.middlePhoto01 {
+	  width: 230px;
+	  height: 230px;
+	  background-size: contain;
+	}
+
+	.middlePhoto02 {
+	  width: 230px;
+	  height: 230px;
+	  background-size: contain;
+	}
+
+	.middlePhoto03 {
+	  width: 230px;
+	  height: 230px;
+	  background-size: contain;
+	}
+
+	.leftPhoto01 {
+	  width: 230px;
+	  height: 230px;
+	  background-size: contain;
+	}
+
+	.leftPhoto02 {
+	  width: 230px;
+	  height: 230px;
+	  background-size: contain;
+	}
+
+	.leftPhoto03 {
+	  width: 230px;
+	  height: 230px;
+	  background-size: contain;
+	}
+
+	.rightPhoto01 {
+	  width: 230px;
+	  height: 230px;
+	  background-size: contain;
+	}
+
+	.rightPhoto02 {
+	  width: 230px;
+	  height: 230px;
+	  background-size: contain;
+	}
+
+	.rightPhoto03 {
+	  width: 230px;
+	  height: 230px;
+	  background-size: contain;
+	}
+
+	.literatureLogo {
+	  top: 77px;
+	}
+
+	.glassLogoLeft {
+	  top: 98px;
+	}
+
+	.glassLogoRight {
+	  top: 88px;
+	}
 }
 
 /* Nexus 7 */
 @media screen and (min-width: 600px) and (max-width: 767px){
+	
+	.boxMiddle {
+	  width: 180px;
+	  height: 180px;
+	  background-size: 180px 180px;
+	}
 
+	.boxLeft {
+	  width: 180px;
+	  height: 180px;
+	  background-size: 180px 180px;
+  	  top: -260px;
+
+	  left: -40px;	
+  	  
+  	  margin-top: 12px;
+	}
+
+	.boxRight {
+	  width: 180px;
+	  height: 180px;
+	  background-size: 180px 180px;
+	  top: -230px;
+
+	  right: -40px;
+	}
+
+
+	.middlePhoto01 {
+	  width: 180px;
+	  height: 180px;
+	  background-size: contain;
+	}
+
+	.middlePhoto02 {
+	  width: 180px;
+	  height: 180px;
+	  background-size: contain;
+	}
+
+	.middlePhoto03 {
+	  width: 180px;
+	  height: 180px;
+	  background-size: contain;
+	}
+
+	.leftPhoto01 {
+	  width: 180px;
+	  height: 180px;
+	  background-size: contain;
+	}
+
+	.leftPhoto02 {
+	  width: 180px;
+	  height: 180px;
+	  background-size: contain;
+	}
+
+	.leftPhoto03 {
+	  width: 180px;
+	  height: 180px;
+	  background-size: contain;
+	}
+
+	.rightPhoto01 {
+	  width: 180px;
+	  height: 180px;
+	  background-size: contain;
+	}
+
+	.rightPhoto02 {
+	  width: 180px;
+	  height: 180px;
+	  background-size: contain;
+	}
+
+	.rightPhoto03 {
+	  width: 180px;
+	  height: 180px;
+	  background-size: contain;
+	}
+
+	.literatureLogo {
+	  top: 52px;
+	}
+
+	.glassLogoLeft {
+	  top: 63px;
+	}
+
+	.glassLogoRight {
+	  top: 63px;
+	}
 }
 
 /* RWD Pad */ 
 @media screen and (min-width: 415px) and (max-width: 599px){
+	#section01 {
 
+	  height: 414px;
+	  background-size: 100% 414px;
+	}
+
+	.spotvrLogo {
+	  width: 240px;
+	  height: 76px;
+	  background-size: contain;
+	  top: 160px;
+	}
+
+	#section02 {
+	  height: 240px;
+	  background-size: 100% 240px;
+	}
+
+	#section03 {
+	  height: 620px;
+	  background-size: 100% 620px;
+	}
+
+	#section03Bg {
+	  width: 100%;
+	  height: 460px;
+	  background-size: cover;
+	}
+
+	.descriptionArea {
+	  width: 420px;
+	  height: 320px;
+	  background-size: 420px 320px;
+
+	  top: -80px;
+	  left: 0px;
+
+	}
+
+	.descriptionText {
+	  font-size: 16px;
+	  top: 35px;
+	}
+
+	.prefix {
+	  font-size: 55px;
+	  top: -21px;
+	  left: 13px;
+	}
+
+	#section04Bg {
+	  width: 1239px;
+	  height: 1820px;
+	  background-size: contain;
+	  top: 0px;
+	  margin-top: 120px;
+	}
+
+	.grassBallCenter {
+		width: 120px;
+		height: 116px;
+		background-size: contain;
+
+		position: relative;
+		margin: 0 auto;
+		top: 260px;
+	}
+
+	.forceLine01 {
+	  width: 100px;
+	  height: 1px;
+	  background-size: 100px 1px;
+	  top: -25px;
+	  left: -70px;
+	  
+	  -webkit-transform: rotate(55deg);
+	  transform: rotate(55deg);
+	}
+
+	.grassBallMini01 {
+	  width: 46px;
+	  height: 40px;
+	  background-size: contain;
+	  top: 40px;
+	  right: 110px;
+	}
+
+	.ballText01 {
+	  font-size: 14px;
+	  top: -30px;
+	  left: -65px;
+	}
+
+	.forceLine02 {
+	  width: 80px;
+	  height: 1px;
+	  background-size: 80px 1px;
+	  top: 100px;
+	  left: -80px;
+	  
+	  -webkit-transform: rotate(-35deg);
+	  transform: rotate(-35deg);
+	}
+
+	.grassBallMini02 {
+	  width: 44px;
+	  height: 40px;
+	  background-size: contain;
+	  top: 220px;
+	  right: 130px;
+	}
+
+	.ballText02 {
+	  font-size: 14px;
+	  top: 40px;
+	  left: -40px;
+
+	}
+
+	.forceLine03 {
+	  width: 140px;
+	  height: 1px;
+	  background-size: 140px 1px;
+
+	  top: 170px;
+	  left: -30px;
+	  
+	  -webkit-transform: rotate(-75deg);
+	  transform: rotate(-75deg);
+	}
+
+	.grassBallMini03 {
+	  width: 44px;
+	  height: 46px;
+	  background-size: contain;
+	  top: 300px;
+	  right: 40px;
+	}
+
+	.ballText03 {
+	  font-size: 14px;
+	  top: 55px;
+	  left: -80px;
+	}
+
+	.forceLine04 {
+	  width: 150px;
+	  height: 1px;
+	  background-size: 150px 1px;
+
+	  top: -75px;
+	  right: 25px;
+	  
+	  -webkit-transform: rotate(-95deg);
+	  transform: rotate(-95deg);
+	}
+
+	.grassBallMini04 {
+	  width: 44px;
+	  height: 45px;
+	  background-size: contain;
+	  top: -170px;
+	  left: -20px;
+	}
+
+	.ballText04 {
+	  font-size: 14px;
+	  top: -30px;
+	  right: -70px;
+	}
+
+	.forceLine05 {
+	  width: 110px;
+	  height: 1px;
+	  background-size: 110px 1px;
+
+	  top: -30px;
+	  right: -80px;
+	  
+	  -webkit-transform: rotate(-40deg);
+	  transform: rotate(-40deg);
+	}
+
+	.grassBallMini05 {
+	  width: 44px;
+	  height: 43px;
+	  background-size: contain;
+	  top: -120px;
+	  left: 140px;
+	}
+
+	.ballText05 {
+	  font-size: 14px;
+	  top: -30px;
+	  right: -20px;
+
+	}
+
+	.forceLine06 {
+	  width: 90px;
+	  height: 1px;
+	  background-size: 90px 1px;
+	  top: 120px;
+	  right: -60px;
+	  
+	  -webkit-transform: rotate(55deg);
+	  transform: rotate(55deg);
+	}
+
+	.grassBallMini06 {
+	  width: 46px;
+	  height: 44px;
+	  background-size: contain;
+	  top: 90px;
+	  left: 100px;
+	}
+
+	.ballText06 {
+	  font-size: 14px;
+	  top: 60px;
+	  right: -70px;
+	}
+
+	#section05 {
+	  height: 120px;
+	  background-size: 100% 120px;
+	}
+
+	.spotvrLogoMini {
+	  width: 140px;
+	  height: 44px;
+	  background-size: contain;
+	  top: 36px;
+	}
+
+	.cardboardText {
+	  font-size: 20px;
+	  left: 100px;
+	  top: 30px;
+	}
+
+	.cardboardLinePic {
+	  width: 300px;
+	  height: 263px;
+	  background-size: contain;
+	  top: -164px;
+	}
+
+	#section06 {
+
+	  height: 420px;
+	  background-size: 100% 420px;
+	}
+
+	.cardboardPhoto {
+	  top: 160px;
+	}
+
+	.cardboardDescriptionArea {
+	  top: 160px;
+	}
+
+	.boxLeft {
+	  display: none;
+	}
+
+	.boxRight {
+	  display: none;
+	}
+
+	.cardboardCustom {
+	  left: 0px;
+	  top: -20px;
+	}
 }
 
 /* i6 Plus */
@@ -141,12 +729,18 @@
 	  background-size: 100% 320px;
 	}
 
+	#section03Bg {
+	  width: 100%;
+	  height: 460px;
+	  background-size: contain;
+	}
+
 	.descriptionArea {
 	  width: 320px;
 	  height: 220px;
 	  background-size: 320px 220px;
 	  left: 0px;
-	  top: -580px
+	  top: -280px
 	}
 
 	.descriptionText {
@@ -168,172 +762,172 @@
 	  margin-top: 120px;
 	}
 
-.grassBallCenter {
-	width: 120px;
-	height: 116px;
-	background-size: contain;
+	.grassBallCenter {
+		width: 120px;
+		height: 116px;
+		background-size: contain;
 
-	position: relative;
-	margin: 0 auto;
-	top: 260px;
-}
+		position: relative;
+		margin: 0 auto;
+		top: 260px;
+	}
 
-.forceLine01 {
-  width: 100px;
-  height: 1px;
-  background-size: 100px 1px;
-  top: -25px;
-  left: -70px;
-  
-  -webkit-transform: rotate(55deg);
-  transform: rotate(55deg);
-}
+	.forceLine01 {
+	  width: 100px;
+	  height: 1px;
+	  background-size: 100px 1px;
+	  top: -25px;
+	  left: -70px;
+	  
+	  -webkit-transform: rotate(55deg);
+	  transform: rotate(55deg);
+	}
 
-.grassBallMini01 {
-  width: 46px;
-  height: 40px;
-  background-size: contain;
-  top: 40px;
-  right: 110px;
-}
+	.grassBallMini01 {
+	  width: 46px;
+	  height: 40px;
+	  background-size: contain;
+	  top: 40px;
+	  right: 110px;
+	}
 
-.ballText01 {
-  font-size: 14px;
-  top: -30px;
-  left: -65px;
-}
+	.ballText01 {
+	  font-size: 14px;
+	  top: -30px;
+	  left: -65px;
+	}
 
-.forceLine02 {
-  width: 80px;
-  height: 1px;
-  background-size: 80px 1px;
-  top: 100px;
-  left: -80px;
-  
-  -webkit-transform: rotate(-35deg);
-  transform: rotate(-35deg);
-}
+	.forceLine02 {
+	  width: 80px;
+	  height: 1px;
+	  background-size: 80px 1px;
+	  top: 100px;
+	  left: -80px;
+	  
+	  -webkit-transform: rotate(-35deg);
+	  transform: rotate(-35deg);
+	}
 
-.grassBallMini02 {
-  width: 44px;
-  height: 40px;
-  background-size: contain;
-  top: 220px;
-  right: 130px;
-}
+	.grassBallMini02 {
+	  width: 44px;
+	  height: 40px;
+	  background-size: contain;
+	  top: 220px;
+	  right: 130px;
+	}
 
-.ballText02 {
-  font-size: 14px;
-  top: 40px;
-  left: -40px;
+	.ballText02 {
+	  font-size: 14px;
+	  top: 40px;
+	  left: -40px;
 
-}
+	}
 
-.forceLine03 {
-  width: 140px;
-  height: 1px;
-  background-size: 140px 1px;
+	.forceLine03 {
+	  width: 140px;
+	  height: 1px;
+	  background-size: 140px 1px;
 
-  top: 170px;
-  left: -30px;
-  
-  -webkit-transform: rotate(-75deg);
-  transform: rotate(-75deg);
-}
+	  top: 170px;
+	  left: -30px;
+	  
+	  -webkit-transform: rotate(-75deg);
+	  transform: rotate(-75deg);
+	}
 
-.grassBallMini03 {
-  width: 44px;
-  height: 46px;
-  background-size: contain;
-  top: 300px;
-  right: 40px;
-}
+	.grassBallMini03 {
+	  width: 44px;
+	  height: 46px;
+	  background-size: contain;
+	  top: 300px;
+	  right: 40px;
+	}
 
-.ballText03 {
-  font-size: 14px;
-  top: 55px;
-  left: -80px;
+	.ballText03 {
+	  font-size: 14px;
+	  top: 55px;
+	  left: -80px;
 
-}
+	}
 
-.forceLine04 {
-  width: 150px;
-  height: 1px;
-  background-size: 150px 1px;
+	.forceLine04 {
+	  width: 150px;
+	  height: 1px;
+	  background-size: 150px 1px;
 
-  top: -75px;
-  right: 25px;
-  
-  -webkit-transform: rotate(-95deg);
-  transform: rotate(-95deg);
-}
+	  top: -75px;
+	  right: 25px;
+	  
+	  -webkit-transform: rotate(-95deg);
+	  transform: rotate(-95deg);
+	}
 
-.grassBallMini04 {
-  width: 44px;
-  height: 45px;
-  background-size: contain;
-  top: -170px;
-  left: -20px;
-}
+	.grassBallMini04 {
+	  width: 44px;
+	  height: 45px;
+	  background-size: contain;
+	  top: -170px;
+	  left: -20px;
+	}
 
-.ballText04 {
-  font-size: 14px;
-  top: -30px;
-  right: -70px;
-}
+	.ballText04 {
+	  font-size: 14px;
+	  top: -30px;
+	  right: -70px;
+	}
 
-.forceLine05 {
-  width: 110px;
-  height: 1px;
-  background-size: 110px 1px;
+	.forceLine05 {
+	  width: 110px;
+	  height: 1px;
+	  background-size: 110px 1px;
 
-  top: -30px;
-  right: -80px;
-  
-  -webkit-transform: rotate(-40deg);
-  transform: rotate(-40deg);
-}
+	  top: -30px;
+	  right: -80px;
+	  
+	  -webkit-transform: rotate(-40deg);
+	  transform: rotate(-40deg);
+	}
 
-.grassBallMini05 {
-  width: 44px;
-  height: 43px;
-  background-size: contain;
-  top: -120px;
-  left: 140px;
-}
+	.grassBallMini05 {
+	  width: 44px;
+	  height: 43px;
+	  background-size: contain;
+	  top: -120px;
+	  left: 140px;
+	}
 
-.ballText05 {
-  font-size: 14px;
-  top: -30px;
-  right: -20px;
+	.ballText05 {
+	  font-size: 14px;
+	  top: -30px;
+	  right: -20px;
 
-}
+	}
 
-.forceLine06 {
-  width: 90px;
-  height: 1px;
-  background-size: 90px 1px;
-  top: 120px;
-  right: -60px;
-  
-  -webkit-transform: rotate(55deg);
-  transform: rotate(55deg);
-}
+	.forceLine06 {
+	  width: 90px;
+	  height: 1px;
+	  background-size: 90px 1px;
+	  top: 120px;
+	  right: -60px;
+	  
+	  -webkit-transform: rotate(55deg);
+	  transform: rotate(55deg);
+	}
 
-.grassBallMini06 {
-  width: 46px;
-  height: 44px;
-  background-size: contain;
-  top: 90px;
-  left: 100px;
-}
+	.grassBallMini06 {
+	  width: 46px;
+	  height: 44px;
+	  background-size: contain;
+	  top: 90px;
+	  left: 100px;
+	}
 
-.ballText06 {
-  font-size: 14px;
-  top: 60px;
-  right: -70px;
+	.ballText06 {
+	  font-size: 14px;
+	  top: 60px;
+	  right: -70px;
 
-}
+	}
 
 	#section05 {
 	  height: 120px;
@@ -414,12 +1008,18 @@
 	  background-size: 100% 280px;
 	}
 
+	#section03Bg {
+	  width: 100%;
+	  height: 460px;
+	  background-size: contain;
+	}
+
 	.descriptionArea {
 	  width: 300px;
 	  height: 200px;
 	  background-size: 300px 200px;
 	  left: 0px;
-	  top: -600px
+	  top: -280px
 	}
 
 	.descriptionText {
@@ -442,172 +1042,172 @@
 	  margin-top: 120px;
 	}
 
-.grassBallCenter {
-	width: 120px;
-	height: 116px;
-	background-size: contain;
+	.grassBallCenter {
+		width: 120px;
+		height: 116px;
+		background-size: contain;
 
-	position: relative;
-	margin: 0 auto;
-	top: 260px;
-}
+		position: relative;
+		margin: 0 auto;
+		top: 260px;
+	}
 
-.forceLine01 {
-  width: 100px;
-  height: 1px;
-  background-size: 100px 1px;
-  top: -25px;
-  left: -70px;
-  
-  -webkit-transform: rotate(55deg);
-  transform: rotate(55deg);
-}
+	.forceLine01 {
+	  width: 100px;
+	  height: 1px;
+	  background-size: 100px 1px;
+	  top: -25px;
+	  left: -70px;
+	  
+	  -webkit-transform: rotate(55deg);
+	  transform: rotate(55deg);
+	}
 
-.grassBallMini01 {
-  width: 46px;
-  height: 40px;
-  background-size: contain;
-  top: 40px;
-  right: 110px;
-}
+	.grassBallMini01 {
+	  width: 46px;
+	  height: 40px;
+	  background-size: contain;
+	  top: 40px;
+	  right: 110px;
+	}
 
-.ballText01 {
-  font-size: 14px;
-  top: -30px;
-  left: -65px;
-}
+	.ballText01 {
+	  font-size: 14px;
+	  top: -30px;
+	  left: -65px;
+	}
 
-.forceLine02 {
-  width: 80px;
-  height: 1px;
-  background-size: 80px 1px;
-  top: 100px;
-  left: -80px;
-  
-  -webkit-transform: rotate(-35deg);
-  transform: rotate(-35deg);
-}
+	.forceLine02 {
+	  width: 80px;
+	  height: 1px;
+	  background-size: 80px 1px;
+	  top: 100px;
+	  left: -80px;
+	  
+	  -webkit-transform: rotate(-35deg);
+	  transform: rotate(-35deg);
+	}
 
-.grassBallMini02 {
-  width: 44px;
-  height: 40px;
-  background-size: contain;
-  top: 220px;
-  right: 130px;
-}
+	.grassBallMini02 {
+	  width: 44px;
+	  height: 40px;
+	  background-size: contain;
+	  top: 220px;
+	  right: 130px;
+	}
 
-.ballText02 {
-  font-size: 14px;
-  top: 40px;
-  left: -40px;
+	.ballText02 {
+	  font-size: 14px;
+	  top: 40px;
+	  left: -40px;
 
-}
+	}
 
-.forceLine03 {
-  width: 140px;
-  height: 1px;
-  background-size: 140px 1px;
+	.forceLine03 {
+	  width: 140px;
+	  height: 1px;
+	  background-size: 140px 1px;
 
-  top: 170px;
-  left: -30px;
-  
-  -webkit-transform: rotate(-75deg);
-  transform: rotate(-75deg);
-}
+	  top: 170px;
+	  left: -30px;
+	  
+	  -webkit-transform: rotate(-75deg);
+	  transform: rotate(-75deg);
+	}
 
-.grassBallMini03 {
-  width: 44px;
-  height: 46px;
-  background-size: contain;
-  top: 300px;
-  right: 40px;
-}
+	.grassBallMini03 {
+	  width: 44px;
+	  height: 46px;
+	  background-size: contain;
+	  top: 300px;
+	  right: 40px;
+	}
 
-.ballText03 {
-  font-size: 14px;
-  top: 55px;
-  left: -80px;
+	.ballText03 {
+	  font-size: 14px;
+	  top: 55px;
+	  left: -80px;
 
-}
+	}
 
-.forceLine04 {
-  width: 150px;
-  height: 1px;
-  background-size: 150px 1px;
+	.forceLine04 {
+	  width: 150px;
+	  height: 1px;
+	  background-size: 150px 1px;
 
-  top: -75px;
-  right: 25px;
-  
-  -webkit-transform: rotate(-95deg);
-  transform: rotate(-95deg);
-}
+	  top: -75px;
+	  right: 25px;
+	  
+	  -webkit-transform: rotate(-95deg);
+	  transform: rotate(-95deg);
+	}
 
-.grassBallMini04 {
-  width: 44px;
-  height: 45px;
-  background-size: contain;
-  top: -170px;
-  left: -20px;
-}
+	.grassBallMini04 {
+	  width: 44px;
+	  height: 45px;
+	  background-size: contain;
+	  top: -170px;
+	  left: -20px;
+	}
 
-.ballText04 {
-  font-size: 14px;
-  top: -30px;
-  right: -70px;
-}
+	.ballText04 {
+	  font-size: 14px;
+	  top: -30px;
+	  right: -70px;
+	}
 
-.forceLine05 {
-  width: 110px;
-  height: 1px;
-  background-size: 110px 1px;
+	.forceLine05 {
+	  width: 110px;
+	  height: 1px;
+	  background-size: 110px 1px;
 
-  top: -30px;
-  right: -80px;
-  
-  -webkit-transform: rotate(-40deg);
-  transform: rotate(-40deg);
-}
+	  top: -30px;
+	  right: -80px;
+	  
+	  -webkit-transform: rotate(-40deg);
+	  transform: rotate(-40deg);
+	}
 
-.grassBallMini05 {
-  width: 44px;
-  height: 43px;
-  background-size: contain;
-  top: -120px;
-  left: 140px;
-}
+	.grassBallMini05 {
+	  width: 44px;
+	  height: 43px;
+	  background-size: contain;
+	  top: -120px;
+	  left: 140px;
+	}
 
-.ballText05 {
-  font-size: 14px;
-  top: -30px;
-  right: -20px;
+	.ballText05 {
+	  font-size: 14px;
+	  top: -30px;
+	  right: -20px;
 
-}
+	}
 
-.forceLine06 {
-  width: 90px;
-  height: 1px;
-  background-size: 90px 1px;
-  top: 120px;
-  right: -60px;
-  
-  -webkit-transform: rotate(55deg);
-  transform: rotate(55deg);
-}
+	.forceLine06 {
+	  width: 90px;
+	  height: 1px;
+	  background-size: 90px 1px;
+	  top: 120px;
+	  right: -60px;
+	  
+	  -webkit-transform: rotate(55deg);
+	  transform: rotate(55deg);
+	}
 
-.grassBallMini06 {
-  width: 46px;
-  height: 44px;
-  background-size: contain;
-  top: 90px;
-  left: 100px;
-}
+	.grassBallMini06 {
+	  width: 46px;
+	  height: 44px;
+	  background-size: contain;
+	  top: 90px;
+	  left: 100px;
+	}
 
-.ballText06 {
-  font-size: 14px;
-  top: 60px;
-  right: -70px;
+	.ballText06 {
+	  font-size: 14px;
+	  top: 60px;
+	  right: -70px;
 
-}
+	}
 
 	#section05 {
 	  height: 120px;
@@ -692,12 +1292,18 @@
 	  background-size: 100% 280px;
 	}
 
+	#section03Bg {
+	  width: 100%;
+	  height: 460px;
+	  background-size: contain;
+	}
+
 	.descriptionArea {
 	  width: 260px;
 	  height: 220px;
 	  background-size: 260px 220px;
 	  left: 0px;
-	  top: -620px
+	  top: -320px
 	}
 
 	.descriptionText {
@@ -717,171 +1323,172 @@
 	  margin-top: 120px;
 	}
 
-.grassBallCenter {
-	width: 120px;
-	height: 116px;
-	background-size: contain;
+	.grassBallCenter {
+		width: 120px;
+		height: 116px;
+		background-size: contain;
 
-	position: relative;
-	margin: 0 auto;
-	top: 260px;
-}
+		position: relative;
+		margin: 0 auto;
+		top: 260px;
+	}
 
-.forceLine01 {
-  width: 100px;
-  height: 1px;
-  background-size: 100px 1px;
-  top: -25px;
-  left: -70px;
-  
-  -webkit-transform: rotate(55deg);
-  transform: rotate(55deg);
-}
+	.forceLine01 {
+	  width: 100px;
+	  height: 1px;
+	  background-size: 100px 1px;
+	  top: -25px;
+	  left: -70px;
+	  
+	  -webkit-transform: rotate(55deg);
+	  transform: rotate(55deg);
+	}
 
-.grassBallMini01 {
-  width: 46px;
-  height: 40px;
-  background-size: contain;
-  top: 40px;
-  right: 110px;
-}
+	.grassBallMini01 {
+	  width: 46px;
+	  height: 40px;
+	  background-size: contain;
+	  top: 40px;
+	  right: 110px;
+	}
 
-.ballText01 {
-  font-size: 12px;
-  top: -30px;
-  left: -45px;
-}
+	.ballText01 {
+	  font-size: 12px;
+	  top: -30px;
+	  left: -45px;
+	}
 
-.forceLine02 {
-  width: 80px;
-  height: 1px;
-  background-size: 80px 1px;
-  top: 100px;
-  left: -70px;
-  
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
+	.forceLine02 {
+	  width: 80px;
+	  height: 1px;
+	  background-size: 80px 1px;
+	  top: 100px;
+	  left: -70px;
+	  
+	  -webkit-transform: rotate(-45deg);
+	  transform: rotate(-45deg);
+	}
 
-.grassBallMini02 {
-  width: 44px;
-  height: 40px;
-  background-size: contain;
-  top: 220px;
-  right: 110px;
-}
+	.grassBallMini02 {
+	  width: 44px;
+	  height: 40px;
+	  background-size: contain;
+	  top: 220px;
+	  right: 110px;
+	}
 
-.ballText02 {
-  font-size: 12px;
-  top: 40px;
-  left: -40px;
+	.ballText02 {
+	  font-size: 12px;
+	  top: 40px;
+	  left: -40px;
 
-}
+	}
 
-.forceLine03 {
-  width: 140px;
-  height: 1px;
-  background-size: 140px 1px;
+	.forceLine03 {
+	  width: 140px;
+	  height: 1px;
+	  background-size: 140px 1px;
 
-  top: 170px;
-  left: -30px;
-  
-  -webkit-transform: rotate(-75deg);
-  transform: rotate(-75deg);
-}
+	  top: 170px;
+	  left: -30px;
+	  
+	  -webkit-transform: rotate(-75deg);
+	  transform: rotate(-75deg);
+	}
 
-.grassBallMini03 {
-  width: 44px;
-  height: 46px;
-  background-size: contain;
-  top: 300px;
-  right: 40px;
-}
+	.grassBallMini03 {
+	  width: 44px;
+	  height: 46px;
+	  background-size: contain;
+	  top: 300px;
+	  right: 40px;
+	}
 
-.ballText03 {
-  font-size: 12px;
-  top: 55px;
-  left: -80px;
+	.ballText03 {
+	  font-size: 12px;
+	  top: 55px;
+	  left: -80px;
 
-}
+	}
 
-.forceLine04 {
-  width: 150px;
-  height: 1px;
-  background-size: 150px 1px;
+	.forceLine04 {
+	  width: 150px;
+	  height: 1px;
+	  background-size: 150px 1px;
 
-  top: -75px;
-  right: 25px;
-  
-  -webkit-transform: rotate(-95deg);
-  transform: rotate(-95deg);
-}
+	  top: -75px;
+	  right: 25px;
+	  
+	  -webkit-transform: rotate(-95deg);
+	  transform: rotate(-95deg);
+	}
 
-.grassBallMini04 {
-  width: 44px;
-  height: 45px;
-  background-size: contain;
-  top: -170px;
-  left: -20px;
-}
+	.grassBallMini04 {
+	  width: 44px;
+	  height: 45px;
+	  background-size: contain;
+	  top: -170px;
+	  left: -20px;
+	}
 
-.ballText04 {
-  font-size: 12px;
-  top: -30px;
-  right: -70px;
-}
+	.ballText04 {
+	  font-size: 12px;
+	  top: -30px;
+	  right: -70px;
+	}
 
-.forceLine05 {
-  width: 110px;
-  height: 1px;
-  background-size: 110px 1px;
+	.forceLine05 {
+	  width: 110px;
+	  height: 1px;
+	  background-size: 110px 1px;
 
-  top: -40px;
-  right: -60px;
-  
-  -webkit-transform: rotate(-55deg);
-  transform: rotate(-55deg);
-}
+	  top: -40px;
+	  right: -60px;
+	  
+	  -webkit-transform: rotate(-55deg);
+	  transform: rotate(-55deg);
+	}
 
-.grassBallMini05 {
-  width: 44px;
-  height: 43px;
-  background-size: contain;
-  top: -140px;
-  left: 100px;
-}
+	.grassBallMini05 {
+	  width: 44px;
+	  height: 43px;
+	  background-size: contain;
+	  top: -140px;
+	  left: 100px;
+	}
 
-.ballText05 {
-  font-size: 12px;
-  top: -30px;
-  right: -40px;
-}
+	.ballText05 {
+	  font-size: 12px;
+	  top: -30px;
+	  right: -40px;
+	}
 
-.forceLine06 {
-  width: 90px;
-  height: 1px;
-  background-size: 90px 1px;
-  top: 120px;
-  right: -60px;
-  
-  -webkit-transform: rotate(55deg);
-  transform: rotate(55deg);
-}
+	.forceLine06 {
+	  width: 90px;
+	  height: 1px;
+	  background-size: 90px 1px;
+	  top: 120px;
+	  right: -60px;
+	  
+	  -webkit-transform: rotate(55deg);
+	  transform: rotate(55deg);
+	}
 
-.grassBallMini06 {
-  width: 46px;
-  height: 44px;
-  background-size: contain;
-  top: 90px;
-  left: 100px;
-}
+	.grassBallMini06 {
+	  width: 46px;
+	  height: 44px;
+	  background-size: contain;
+	  top: 90px;
+	  left: 100px;
+	}
 
-.ballText06 {
-  font-size: 12px;
-  top: 60px;
-  right: -50px;
+	.ballText06 {
+	  font-size: 12px;
+	  top: 60px;
+	  right: -50px;
 
-}
+	}
+	
 	#section05 {
 	  height: 120px;
 	  background-size: 100% 120px;
