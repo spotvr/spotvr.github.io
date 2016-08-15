@@ -467,17 +467,6 @@
 
 	}
 
-	.descriptionText {
-	  font-size: 16px;
-	  top: 35px;
-	}
-
-	.prefix {
-	  font-size: 55px;
-	  top: -21px;
-	  left: 13px;
-	}
-
 	#section04Bg {
 	  width: 1239px;
 	  height: 1820px;
@@ -725,8 +714,8 @@
 	}
 
 	#section03 {
-	  height: 320px;
-	  background-size: 100% 320px;
+	  height: 370px;
+	  background-size: 100% 370px;
 	}
 
 	#section03Bg {
@@ -735,23 +724,37 @@
 	  background-size: contain;
 	}
 
-	.descriptionArea {
-	  width: 320px;
-	  height: 220px;
-	  background-size: 320px 220px;
-	  left: 0px;
-	  top: -280px
+	.section03BgFill {
+	  width: 100%;
+	  height: 120%;
+	  background-size: 100% 120%;
 	}
 
-	.descriptionText {
-	  font-size: 16px;
-	  top: 35px;
+	.descriptionArea {
+	  width: 320px;
+	  height: 200px;
+	  background-size: 320px 200px;
+	  left: 0px;
+	  top: -200px;
+
+	  border: solid 1px white;
+
+	  padding: 20px;
+	  padding-top: 25px;
+
 	}
 
 	.prefix {
-	  font-size: 55px;
-	  top: -21px;
-	  left: 13px;
+	  font-size: 22px;
+	}
+
+
+	.firstLineMiniText {
+	  font-size: 16px;
+	}
+
+	.secondLine {
+	  font-size: 16px;
 	}
 
 	#section04Bg {
@@ -1004,14 +1007,20 @@
 	}
 
 	#section03 {
-	  height: 280px;
-	  background-size: 100% 280px;
+	  height: 340px;
+	  background-size: 100% 340px;
 	}
 
 	#section03Bg {
 	  width: 100%;
-	  height: 460px;
+	  height: 420px;
 	  background-size: contain;
+	}
+
+	.section03BgFill {
+	  width: 100%;
+	  height: 120%;
+	  background-size: 100% 120%;
 	}
 
 	.descriptionArea {
@@ -1019,21 +1028,25 @@
 	  height: 200px;
 	  background-size: 300px 200px;
 	  left: 0px;
-	  top: -280px
-	}
+	  top: -190px;
+	  border: solid 1px white;
 
-	.descriptionText {
-	  font-size: 16px;
-	  top: 20px;
+	  padding: 10px;
+	  padding-top: 25px;
 	}
 
 	.prefix {
-	  font-size: 45px;
-	  top: -7px;
-	  left: 13px;
-
+	  font-size: 22px;
 	}
 
+
+	.firstLineMiniText {
+	  font-size: 16px;
+	}
+
+	.secondLine {
+	  font-size: 16px;
+	}
 	#section04Bg {
 	  width: 1239px;
 	  height: 1820px;
@@ -1306,14 +1319,8 @@
 	  top: -320px
 	}
 
-	.descriptionText {
-	  font-size: 14px;
-	  top: 15px;
-	}
 
-	.firstLine {
-	  right: 10px;
-	}
+
 
 	#section04Bg {
 	  width: 1239px;
